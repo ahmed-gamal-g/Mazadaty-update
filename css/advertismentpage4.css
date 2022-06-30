@@ -1,0 +1,107 @@
+.arrow-page a i:hover {
+  color: #4659b8;
+}
+
+.arrow-page i {
+  font-size: 40px;
+  color: #36458f;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Cairo", sans-serif;
+}
+
+.arrow-page {
+  margin-bottom: 20px;
+}
+
+.sec-page {
+  margin: 80px 0;
+  background-color: white;
+  padding: 70px 0;
+}
+
+.box-img {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.box-img-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box-img-all a {
+  text-decoration: none;
+  color: #36458f;
+}
+
+.box-img:hover {
+  color: #6976b9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.218);
+}
+
+
+.btn-box a {
+  border: 1px solid #36458f;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #36458f;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 250px;
+  transition: all 0.3s;
+}
+
+.btn-box a i {
+  margin-right: 5px;
+}
+
+.btn-box a:hover {
+  background-color: #36458f;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .box-img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .box-img {
+    width: 150px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-img {
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .box-img-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}

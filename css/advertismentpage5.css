@@ -1,0 +1,175 @@
+/* start sec page */
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.sec-page {
+  margin-top: 20px;
+}
+
+.page-all input {
+  max-width: 50%;
+}
+
+.page-all select {
+  max-width: 50%;
+}
+
+@media (max-width: 767px) {
+  .page-all input {
+    max-width: 100%;
+  }
+
+  .page-all select {
+    max-width: 100%;
+  }
+}
+
+.arrow-page a i:hover {
+  color: #4659b8;
+}
+
+.arrow-page i {
+  font-size: 40px;
+  color: #36458f;
+  margin-bottom: 20px;
+}
+
+.enwan-page h5 {
+  margin-bottom: 15px;
+}
+
+.enwan-page p {
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+
+.enwan-page p a {
+  color: #4659b8;
+  text-decoration: none;
+}
+
+.enwan-page p a:hover {
+  color: #6a7cd1;
+}
+
+.sec-two {
+  padding: 15px 0;
+}
+
+.sec-two input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #36458f;
+  border-radius: 5px;
+  margin: 20px 0;
+  outline: none;
+}
+
+.sec-two h6 {
+  color: #a02504;
+}
+
+.sec-three select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #36458f;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.sec-three {
+  padding: 15px 0;
+}
+
+.check-pass {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.check-pass input {
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+.check-pass p {
+  margin-bottom: 0;
+}
+
+.sec-four .input-pass {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #36458f;
+  border-radius: 5px;
+  margin: 20px 0;
+  outline: none;
+}
+
+.sec-four {
+  padding: 15px 0;
+}
+
+.wrong label {
+  margin-right: 30px;
+}
+
+.wrong p {
+  margin-bottom: 0;
+}
+
+.write p {
+  margin-bottom: 0;
+}
+
+.write label {
+  margin-right: 30px;
+}
+
+.sec-five h5 {
+  margin-bottom: 15px;
+}
+
+.sec-five {
+  padding: 15px 0;
+}
+
+.sec-sex h5 {
+  margin-bottom: 10px;
+}
+
+.sec-sex a {
+  color: #127427;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sec-sex textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #36458f;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  color: rgb(162, 162, 162);
+}
+
+.btn-ersal {
+  background-color: transparent;
+  padding: 5px;
+  width: 100px;
+  border: 1px solid #36458f;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.btn-ersal:hover {
+  background-color: #36458f;
+  color: white;
+}
+
+.sec-sex {
+  padding: 15px 0;
+}
+/* end sec page */

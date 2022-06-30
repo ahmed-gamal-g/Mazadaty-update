@@ -1,0 +1,49 @@
+/* start section terms */
+body {
+  background-color: #f4f4f4;
+  font-family: "Cairo", sans-serif;
+}
+
+.arrow-page {
+  margin-bottom: 30px;
+}
+
+.arrow-page a i:hover {
+  color: #4659b8;
+}
+
+.arrow-page i {
+  font-size: 40px;
+  color: #36458f;
+  margin-bottom: 20px;
+}
+.section-terms {
+  margin: 50px 0;
+  background-color: white;
+  padding: 30px 0;
+}
+
+.text-link a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-link a {
+  text-decoration: none;
+  color: #1e295f;
+}
+
+.text-link a:hover {
+  text-decoration: none;
+  color: silver;
+}
+
+.text-link a i {
+  font-size: 40px;
+}
+
+.text-link p {
+  margin-bottom: 0;
+}
+/* end section terms */

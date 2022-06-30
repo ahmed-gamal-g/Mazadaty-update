@@ -1,0 +1,50 @@
+/* start section terms */
+body {
+    background-color: #F4F4F4;
+    font-family: 'Cairo', sans-serif;
+}
+
+.section-terms {
+    margin: 50px 0;
+    background-color: white;
+    padding: 30px 0;
+}
+
+.text-terms p {
+    font-size: 24px;
+}
+
+.arrow-page a {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-decoration: none;
+  color: #36458f;
+  margin-bottom: 30px;
+}
+
+.arrow-page a p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-page a:hover {
+  color: #4659b8;
+}
+
+.arrow-page a:hover i{
+  color: #4659b8;
+}
+
+.arrow-page i {
+  font-size: 40px;
+  color: #36458f;
+  margin-bottom: -2px;
+  margin-left: 10px;
+}
+  
+  .enwan-page h5 {
+    margin-bottom: 15px;
+  }
+/* end section terms */
